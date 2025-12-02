@@ -1,5 +1,5 @@
 
-const Buttons: React.FC =() => {
+const Button: React.FC =() => {
 
     return (
         <div>
@@ -7,4 +7,4 @@ const Buttons: React.FC =() => {
         </div>
     )
 }
-export default Buttons;
+export default Button;
