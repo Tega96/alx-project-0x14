@@ -1,13 +1,14 @@
 import Header from "./Header"
 import Footer from "./Footer"
-import Button from "./Button"
+import { ComponentProps } from "@/interfaces"
 
-const Layout: React.FC = () => {
+
+const Layout: React.FC<ComponentProps> = ({children}) => {
     return (
         <div>
             <Header />
-            <main className="h-screen">
-                Layout content.
+            <main className="min-h-screen">
+                {children}
             </main>
             <Footer />
         </div>
